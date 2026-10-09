@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+}
+
+section {
+  padding-top: 2vh;
+  align-items: center;
+}
+
+h2 {
+  margin: 0;
+  padding-bottom: 3vh;
+}
+
+footer {
+  display: flex;
+  background: #01194ff5;
+  padding: 2vh;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  border-style: solid;
+  border-color: rgb(208, 208, 208);
+  border-width: 2px;
+  border-radius: 8px;
+  background-color: rgb(231, 231, 250);
+  padding: 1.5vh 1vh;
+}
+
+button {
+  border: none;
+  background: linear-gradient(to right, rgb(36, 119, 193), rgb(57, 149, 230));
+  border-radius: 8px;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  color: white;
+}
+
+button:hover {
+  box-shadow:
+    0 0 5px #c8c8c8,
+    0 0 10px #c8c8c8,
+    0 0 20px #c8c8c8;
+}
+
+.navbar {
+  display: flex;
+  background: #01194ff5;
+  padding: 2vh;
+  margin-top: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-link {
+  color: white;
+  padding-right: 3vh;
+  text-decoration: none;
+}
+
+.navbar-link:hover {
+  text-shadow:
+    0 0 5px #ebfcfc,
+    0 0 7px #ebfcfc,
+    0 0 10px #ebfcfc;
+}
+
+.navbar-name {
+  color: cyan;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  padding-left: 2vh;
+  text-shadow:
+    0 0 5px #35eaed,
+    0 0 7px #35eaed,
+    0 0 10px #35eaed;
+}
+
+.container {
+  border-style: solid;
+  border-color: rgb(208, 208, 208);
+  padding: 3vh;
+  border-width: 2px;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  width:80%;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 1vw;
+  padding: 10px;
+}
+
+.form-container {
+  align-items: center;
+}
+
+.flex-box {
+  display: flex;
+  flex-direction:column;
+  gap: 10px;
+  padding-bottom: 2vh;
+  border-style: solid;
+  border-color: rgb(208, 208, 208);
+  border-radius:10px;
+  border-width:2px;
+  padding: 3vh;
+}
+
+.flex-box:hover{
+    box-shadow:
+    0 0 5px #c8c8c8,
+    0 0 7px #c8c8c8,
+    0 0 10px #c8c8c8;
+}
+
+.sign-header {
+  font-weight: bold;
+}
+
+/* Column taking 1 share of space */
+.col-1 {
+  flex: 1;
+}
+
+/* Column taking 8 shares of space */
+.col-2 {
+  flex: 8;
+}
+
+.sign-icon {
+  width: 60px;
+  height: 60px;
+}
+
+
+.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73AD21;
+}
+
+.circle{
+  opacity: 0.7;
+}
